@@ -6,7 +6,7 @@ public class MyWhaleMinigame : MinigameBase
 { 
     // define variables [player sprite renderers, score timer,
     // FSM table for fire states, 3 (max 4) states exposed audio reference table (mini audiomanager),
-    // int variables (min-max for 10-12
+    // int variables (min-max for 10-12)
     // charges, defined time limit per charges
     
     // AudioManager

@@ -33,7 +33,7 @@ public class UIManager : MonoBehaviour
 
         foreach (UnityEngine.UI.Image image in instance.playerImages)
         {
-            image.gameObject.GetComponent<Animator>().Play("SingleIconIdle");
+            // image.gameObject.GetComponent<Animator>().Play("SingleIconIdle");
         }
 
     }

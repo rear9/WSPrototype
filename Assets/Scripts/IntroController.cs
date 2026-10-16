@@ -54,7 +54,7 @@ public class IntroController : MonoBehaviour
 
                 // if we find a text componenet in child, set the text colour to the player colour
                 if (pages[i].playerPanels[j].gameObject.GetComponentInChildren<TextMeshProUGUI>() != null && i != 5 && i != 0 && i != 1){
-                    pages[i].playerPanels[j].gameObject.GetComponentInChildren<TextMeshProUGUI>().color = UIManager.GetPlayerColor(j);
+                    //pages[i].playerPanels[j].gameObject.GetComponentInChildren<TextMeshProUGUI>().color = UIManager.GetPlayerColor(j);
                 }
                 
             }
@@ -102,7 +102,7 @@ public class IntroController : MonoBehaviour
             {
                 if (pages[5].playerPanels[j].gameObject.activeInHierarchy == true){
                     pages[5].playerPanels[j].gameObject.GetComponentInChildren<TextMeshProUGUI>().text = counterTime.ToString();
-                    pages[5].playerPanels[j].gameObject.GetComponentInChildren<TextMeshProUGUI>().color = UIManager.GetPlayerColor(counterTime % 4);
+                    //pages[5].playerPanels[j].gameObject.GetComponentInChildren<TextMeshProUGUI>().color = UIManager.GetPlayerColor(counterTime % 4);
                 }
                 
                 if (counterSound != null)

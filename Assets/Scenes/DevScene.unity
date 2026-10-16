@@ -8283,7 +8283,7 @@ GameObject:
   - component: {fileID: 87139571}
   - component: {fileID: 87139575}
   m_Layer: 0
-  m_Name: PlayerFish3
+  m_Name: P3Sprite
   m_TagString: Fish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8299,7 +8299,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.0009599549, y: 0, z: 0, w: 0.9999996}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.9100003, y: 3.9100003, z: 3.9100003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1462572000}
@@ -8410,7 +8410,7 @@ Animator:
   m_GameObject: {fileID: 87139569}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e45f6c8d6443b9a498d085eca655f5e8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0f3d00f030e9f534e9c3d74177f6b7d6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -13555,7 +13555,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 722975015}
@@ -14730,7 +14730,7 @@ GameObject:
   - component: {fileID: 231742457}
   - component: {fileID: 231742461}
   m_Layer: 0
-  m_Name: PlayerFish1
+  m_Name: P1Sprite
   m_TagString: Fish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14746,7 +14746,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.0009599549, y: 0, z: 0, w: 0.9999996}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.9100003, y: 3.9100003, z: 3.9100003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 234884616}
@@ -15262,7 +15262,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 231742456}
@@ -23932,7 +23932,7 @@ GameObject:
   - component: {fileID: 368649963}
   - component: {fileID: 368649967}
   m_Layer: 0
-  m_Name: PlayerFish4
+  m_Name: P4Sprite
   m_TagString: Fish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23948,7 +23948,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.0009599549, y: 0, z: 0, w: 0.9999996}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.9100003, y: 3.9100003, z: 3.9100003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 958862839}
@@ -24059,7 +24059,7 @@ Animator:
   m_GameObject: {fileID: 368649961}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e45f6c8d6443b9a498d085eca655f5e8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9b16dc12894eb824f85fb4eac2aec7f3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -48070,7 +48070,7 @@ GameObject:
   - component: {fileID: 722975016}
   - component: {fileID: 722975020}
   m_Layer: 0
-  m_Name: PlayerFish2
+  m_Name: P2Sprite
   m_TagString: Fish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48086,7 +48086,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.0009599549, y: 0, z: 0, w: 0.9999996}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.9100003, y: 3.9100003, z: 3.9100003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 206889330}
@@ -48197,7 +48197,7 @@ Animator:
   m_GameObject: {fileID: 722975014}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e45f6c8d6443b9a498d085eca655f5e8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2bbf2bf3a0acda74d8c736552ce62f09, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -69944,7 +69944,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 7.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 368649962}
@@ -101461,7 +101461,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 87139570}
@@ -143474,6 +143474,32 @@ MonoBehaviour:
   MinigameFinished:
     m_PersistentCalls:
       m_Calls: []
+  playersContainer: {fileID: 268071514}
+  fireAnimators:
+  - {fileID: 231742461}
+  - {fileID: 722975020}
+  - {fileID: 87139575}
+  - {fileID: 368649967}
+  chargesPerPlayer: 12
+  secondsPerCharge: 12
+  emberTimeoutSeconds: 35
+  fireStateScales:
+  - 1.2
+  - 1.4
+  - 1.6
+  - 1.8
+  - 2
+  currentState: 0
+  maxCharges: 48
+  currentCharges: 0
+  survivalTime: 0
+  audioTable:
+    fireBurning: {fileID: 0}
+    wind: {fileID: 0}
+    placingLogs: {fileID: 0}
+    throwingLogs: {fileID: 0}
+    sparks: {fileID: 0}
+  fireLoopSource: {fileID: 0}
 --- !u!1 &2098698629
 GameObject:
   m_ObjectHideFlags: 0
@@ -144833,7 +144859,6 @@ GameObject:
   - component: {fileID: 2124872027}
   - component: {fileID: 2124872025}
   - component: {fileID: 2124872026}
-  - component: {fileID: 2124872024}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -144841,61 +144866,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2124872024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124872023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89a1db5ac1a326241bde13a7c8559e3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timerImages:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  mainBanners:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  waitBanners:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  playerImages:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  playerColors:
-  - {r: 1, g: 0, b: 1, a: 1}
-  - {r: 1, g: 1, b: 0.427451, a: 1}
-  - {r: 0, g: 1, b: 0.5254902, a: 1}
-  - {r: 0, g: 1, b: 1, a: 1}
-  playerActive: 00000000y
-  goPromptAnimators:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &2124872025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144973,7 +144943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_GameTimer:
-    m_TimerMax: 70
+    m_TimerMax: 999999
   playerButtonPressClip: {fileID: 8300000, guid: 9009d4414c89beb4da5bc4bfadc80310, type: 3}
   playerButton2PressClip: {fileID: 8300000, guid: 9009d4414c89beb4da5bc4bfadc80310, type: 3}
   DoTutorial: 0

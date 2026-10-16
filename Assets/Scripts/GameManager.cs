@@ -6,10 +6,10 @@ using System.Linq;
 using UnityEngine.SceneManagement;
 using static UnityEngine.Networking.UnityWebRequest;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoBehaviour // REWRITE THIS WHOLE THING
 {
     //TODO: Move this into its own state class
-    public enum GameState { IDLE, INTRO, MINIGAME, ENDSTATE, NULL };
+    public enum GameState { IDLE, INTRO, MINIGAME, ENDSTATE, NULL }; // cut endstate
     private GameState gameState = GameState.IDLE;
     private GameState previousState = GameState.IDLE;
 
@@ -263,10 +263,10 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.INTRO:
                 SetTeamTimerVisibility(false);
-                UIManager.SetWaitBannerVisible(true);
+                //UIManager.SetWaitBannerVisible(true);
                 break;
             case GameState.MINIGAME:
-                UIManager.SetTimerVisible(false);
+                //UIManager.SetTimerVisible(false);
                 // TODO re-enable random scorecards
                 GameAPI.Scorecard.GenerateRandomScorecard();
                 VFXManager.ClearInstantTutorials();
@@ -293,10 +293,10 @@ public class GameManager : MonoBehaviour
             for (int i = 0; i < 4; i++){
                 if (playerManager.GetPlayerState(i) == Player.PlayerState.ACTIVE)
                 {
-                    UIManager.UpdatePlayerUI(i, true);
+                    //UIManager.UpdatePlayerUI(i, true);
                 }
                 else{
-                    UIManager.UpdatePlayerUI(i, false);
+                    //UIManager.UpdatePlayerUI(i, false);
                     
                 }
                         
@@ -350,7 +350,7 @@ public class GameManager : MonoBehaviour
     {
         if (!inputBlocked[playerIndex])
         {
-            //Debug.Log("Primary Fire Index: " + playerIndex);
+            Debug.Log("Primary Fire Index: " + playerIndex);
             playerManager.players[playerIndex].OnPrimaryFire();
             // If player is active and a minigame is currently playing, trigger the primary fire event for the current minigame
             if (gameState == GameState.MINIGAME && playerManager.GetPlayerState(playerIndex) == Player.PlayerState.ACTIVE)
@@ -370,7 +370,7 @@ public class GameManager : MonoBehaviour
     {
         if (!inputBlocked[playerIndex])
         {
-            //Debug.Log("Secondary Fire Index: " + playerIndex);
+            Debug.Log("Secondary Fire Index: " + playerIndex);
             playerManager.players[playerIndex].OnSecondaryFire();
             // If player is active and a minigame is currently playing, trigger the secondary fire event for the current minigame
             if (gameState == GameState.MINIGAME && playerManager.GetPlayerState(playerIndex) == Player.PlayerState.ACTIVE)
@@ -470,7 +470,7 @@ public class GameManager : MonoBehaviour
         if (DoGameTutorials)
         {
             SetTeamTimerVisibility(true);
-            UIManager.SetWaitBannerVisible(true);
+            //UIManager.SetWaitBannerVisible(true);
             minigameManager.PlayTutorial();
         }
         else
@@ -584,7 +584,7 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < GameAPI.TimerParents.Length; i++) 
         {
-            GameAPI.TimerParents[i].SetActive(visibility);
+            // GameAPI.TimerParents[i].SetActive(visibility);
         }
     }
 

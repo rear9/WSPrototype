@@ -107,7 +107,7 @@ public class BoatMovement : MonoBehaviour
 
     private void Update()
     {
-        UIManager.SetTimer(uiTimer / maxTime);
+        //UIManager.SetTimer(uiTimer / maxTime);
         uiTimer -= Time.deltaTime;
 
         if (moving)

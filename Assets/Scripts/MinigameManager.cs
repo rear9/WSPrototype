@@ -163,7 +163,7 @@ public class MinigameManager : MonoBehaviour
                 {
                     tRemaining = m_Timer.Tick(Time.deltaTime);
                     // set the radial fill of the timerImages based on the amount of time remaining
-                    UIManager.SetTimer(m_Timer.CurrentTime, m_Timer.TimerMax);
+                    //UIManager.SetTimer(m_Timer.CurrentTime, m_Timer.TimerMax);
                 }
                 if (Mathf.Approximately(0.0f, tRemaining))
                 {
@@ -213,12 +213,12 @@ public class MinigameManager : MonoBehaviour
     public void MinigameStart()
     {
         UnpauseTimer();
-        UIManager.SetTimerVisible(true);
-        UIManager.SetWaitBannerVisible(false);
+        //UIManager.SetTimerVisible(true);
+        //UIManager.SetWaitBannerVisible(false);
         currentMinigame.StartMinigame();
         for (int i = 0; i < goPromptAnimators.Length; i++)
         {
-            goPromptAnimators[i].SetTrigger("PlayPrompt");
+            //goPromptAnimators[i].SetTrigger("PlayPrompt");
         }
         PlayerAudioManager.PlayGlobalOneShot(goSFXClip);
         if (OnMinigameStart != null)

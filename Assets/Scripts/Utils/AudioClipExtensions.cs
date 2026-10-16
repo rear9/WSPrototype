@@ -22,9 +22,9 @@ public static class AudioClipExtensions
 
     public static AudioClip CreateSpeakerSpecificClip(this AudioClip originalClip, int amountOfChannels, int targetChannel)
     {
-        if (speakerSpecificClips.ContainsKey(originalClip.GetInstanceID()))
+        if (speakerSpecificClips.ContainsKey(originalClip.GetEntityId().GetHashCode()))
         {
-            return (speakerSpecificClips[originalClip.GetInstanceID()]);
+            return (speakerSpecificClips[originalClip.GetEntityId().GetHashCode()]);
         }
         else
         {
@@ -45,7 +45,7 @@ public static class AudioClipExtensions
             if (!clip.SetData(audioData, 0))
                 return null;
 
-            speakerSpecificClips.Add(originalClip.GetInstanceID(), clip);
+            speakerSpecificClips.Add(originalClip.GetEntityId().GetHashCode(), clip);
             return clip;
         }
     }

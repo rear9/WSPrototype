@@ -73,3 +73,11 @@ crashlytics-build.properties
 /Assets/CSV
 /Assets/Temp
 Assets/Temp.meta
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# Runtime-generated save data
+/highscores.json

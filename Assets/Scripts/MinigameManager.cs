@@ -8,7 +8,7 @@ using static GameManager;
 [System.Serializable]
 public class GameTimer
 {
-    public float m_TimerMax = 10.0f;
+    public float m_TimerMax = 99999f;
     private float m_CurrentTime;
     public float TotalTime{
         get;
@@ -168,7 +168,7 @@ public class MinigameManager : MonoBehaviour
                 if (Mathf.Approximately(0.0f, tRemaining))
                 {
                     //OnMinigameFinished();   //TODO: Better ending flow
-                    TimeUp();
+                    //TimeUp();
                 }
             }            
         }

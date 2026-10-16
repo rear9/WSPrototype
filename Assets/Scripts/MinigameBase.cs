@@ -15,10 +15,6 @@ public abstract class MinigameBase : MonoBehaviour
         private set;
     } = false;
 
-    //  Universal Timer
-    [Tooltip("How long should the game last for each attempt.")] [SerializeField] 
-    private float[] GameDurationPerLevel = new float[4] { 0, 0, 0, 0 };
-
     public int Difficulty
     {
         get;
@@ -41,7 +37,7 @@ public abstract class MinigameBase : MonoBehaviour
     
     public float GetGameDuration()
     {
-        return GameDurationPerLevel[Mathf.Clamp(Difficulty, 0, GameDurationPerLevel.Length-1)];
+        return 99999f;
     }
 
     private void Start()

@@ -228,6 +228,7 @@ public class MyWhaleMinigame : MinigameBase
         return FireState.FireState4;
     }
 
+
     private void SetFireState(FireState newState, bool forceUpdate = false)
     {
         if (currentState == newState && !forceUpdate)

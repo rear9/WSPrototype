@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MyWhaleMinigame : MinigameBase
-{
-    /// <summary>
-    /// This function is called at the end of the game so that it knows what to display on the score screen.
-    /// You give it information about what each players score was, how much time they earned individually, and also how much time they've earned together
-    /// </summary>
-    /// <returns>A class that contains all the necessary information to display the score page</returns>
+{ 
+    // define variables [player sprite renderers, score timer,
+    // FSM table for fire states, 3 (max 4) states exposed audio reference table (mini audiomanager),
+    // int variables (min-max for 10-12
+    // charges, defined time limit per charges
+    
+    // AudioManager
+    // Fire burning (flame/crackling), wind,
+    // placing logs, throwing logs, sparks, player joining)
+    
     public override GameScoreData GetScoreData()
     {
         //Here's an example of how you might generate scores
@@ -35,7 +39,7 @@ public class MyWhaleMinigame : MinigameBase
     /// <param name="direction">Which direction(s) are they pressing</param>
     public override void OnDirectionalInput(int playerIndex, Vector2 direction)
     {
-
+        // do nothing
     }
     /// <summary>
     /// What should happen when the player presses the left hand button?
@@ -43,6 +47,11 @@ public class MyWhaleMinigame : MinigameBase
     /// <param name="playerIndex">Which player (0-3) pressed the button</param>
     public override void OnPrimaryFire(int playerIndex)
     {
+        
+        // fire things
+        
+        // colour changing (hue system)
+        // colours are presets based on colour-blindness palette
     }
 
     /// <summary>
@@ -51,19 +60,19 @@ public class MyWhaleMinigame : MinigameBase
     /// <param name="playerIndex">Which player (0-3) pressed the button</param>
     public override void OnSecondaryFire(int playerIndex)
     {
+        
+       // make fire go up
        
+       // add a charge (max 12), after 3/4 charges, change state from FSM
     }
 
     public override void TimeUp()
     {
-        //Do you want to do something when the minigame timer runs out?
-        //This is where you do that!
+        
     }
 
     protected override void OnResetGame()
     {
-        //Is there any cleanup you have to do when the game gets totally reset?
-        //This might just be empty!
-
+        
     }
 }
